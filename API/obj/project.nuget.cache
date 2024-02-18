@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B2LbwF1LdZdVJRMLwVUZPRnisLRtW1hElBom5fPH7q6gwB1AtYUSiIMdLUEBIyiTu78fIJ2w9pHHR9lvyKC6Vg==",
+  "dgSpecHash": "imUGsUXoitvULTYiBrLi/emZuTB2209pMAqGFol0mEPMYL6T3Cy53rffVylmLELiob/mN+5nH4ZV302Rc7eNzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wlsna\\Documents\\project-ecommerce-app\\skinet\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wlsna\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.16\\microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",
     "C:\\Users\\wlsna\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

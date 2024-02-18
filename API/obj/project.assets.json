@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wlsna\\Documents\\project-ecommerce-app\\skinet\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\wlsna\\Documents\\project-ecommerce-app\\skinet\\API\\API.csproj",
+      "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
       "packagesPath": "C:\\Users\\wlsna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wlsna\\Documents\\project-ecommerce-app\\skinet\\API\\obj\\",
+      "outputPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -493,7 +493,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.313\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -540,7 +539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.313\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
