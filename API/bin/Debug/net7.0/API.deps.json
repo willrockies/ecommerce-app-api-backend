@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "API/1.0.0": {
         "dependencies": {
+          "CloudStorageTestApplication": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.16",
           "Microsoft.EntityFrameworkCore.Design": "7.0.16",
@@ -396,6 +397,11 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
+      "CloudStorageTestApplication/1.0.0": {
+        "runtime": {
+          "CloudStorageTestApplication.dll": {}
+        }
+      },
       "Core/1.0.0": {
         "runtime": {
           "Core.dll": {}
@@ -662,6 +668,11 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "CloudStorageTestApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Core/1.0.0": {
       "type": "project",

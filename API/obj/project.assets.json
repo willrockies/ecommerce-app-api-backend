@@ -658,6 +658,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "CloudStorageTestApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CloudStorageTestApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CloudStorageTestApplication.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1737,6 +1750,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CloudStorageTestApplication/1.0.0": {
+      "type": "project",
+      "path": "../CloudStorageTestApplication/CloudStorageTestApplication.csproj",
+      "msbuildProject": "../CloudStorageTestApplication/CloudStorageTestApplication.csproj"
+    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
@@ -1750,6 +1768,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CloudStorageTestApplication >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.16",
@@ -1758,23 +1777,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wlsna\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\wilson.alves\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\wlsna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\obj\\",
+      "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\wilson.alves\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wlsna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wilson.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1782,14 +1797,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://app.wisecons.com.br/WiseGet/nuget": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj": {
+              "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj"
+            },
+            "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1798,6 +1818,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1842,7 +1867,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

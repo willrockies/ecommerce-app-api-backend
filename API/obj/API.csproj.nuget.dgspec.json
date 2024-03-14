@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj": {}
+    "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj": {
+    "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\wlsna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\API\\obj\\",
+        "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\wilson.alves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wlsna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wilson.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +22,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app.wisecons.com.br/WiseGet/nuget": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj": {
+                "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj"
+              },
+              "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -41,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,24 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\Core.csproj": {
+    "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\wlsna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\obj\\",
+        "projectUniqueName": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj",
+        "projectName": "CloudStorageTestApplication",
+        "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\CloudStorageTestApplication.csproj",
+        "packagesPath": "C:\\Users\\wilson.alves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\CloudStorageTestApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wlsna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wilson.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,7 +114,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app.wisecons.com.br/WiseGet/nuget": {}
         },
         "frameworks": {
           "net7.0": {
@@ -122,6 +128,76 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\wilson.alves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wilson.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app.wisecons.com.br/WiseGet/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -143,24 +219,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\wlsna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\wilson.alves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wlsna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wilson.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,14 +241,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app.wisecons.com.br/WiseGet/nuget": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\wlsna\\Documents\\projeto-ecommmerce-app\\ecommerce-app-api-backend\\Core\\Core.csproj"
+              "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\wilson.alves\\Documents\\skinet\\ecommerce-app-api-backend\\Core\\Core.csproj"
               }
             }
           }
@@ -184,6 +259,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -211,7 +291,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
