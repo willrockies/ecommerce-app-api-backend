@@ -16,7 +16,7 @@ namespace CloudStorageTestApplication.UseCase.User
         public void Execute(IFormFile file)
         {
             var fileStream = file.OpenReadStream();
-            var isRecognizableType = fileStream.Is<JointPhotographicExpertsGroup>()
+            var isRecognizableType = fileStream.Is<JointPhotographicExpertsGroup>();
 
         }
     }
