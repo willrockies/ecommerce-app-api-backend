@@ -40,7 +40,8 @@ public class ProductsControllers : ControllerBase
     [HttpGet("/api/Products/{id}")]
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
-        return await productsRepo.GetByIdAsync(id);
+        var spec = new ProductsWithTypesAndBrandsSpecification(id);
+        return await productsRepo.GetEntityWithSpec(spec);
     }
 
     [HttpGet("/api/Products/brands")]
