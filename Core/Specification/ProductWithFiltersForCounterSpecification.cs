@@ -9,13 +9,14 @@ namespace Core.Specification
 {
     public class ProductWithFiltersForCounterSpecification : BaseSpecification<Product>
     {
-        public ProductWithFiltersForCounterSpecification(ProductSpecParams productParams) 
+        public ProductWithFiltersForCounterSpecification(ProductSpecParams productParams)
             : base(x =>
+                (string.IsNullOrEmpty(productParams.Search) || x.Name.ToLower().Contains(productParams.Search)) &&
                 (!productParams.BrandId.HasValue || x.ProductBrandId == productParams.BrandId) &&
                 (!productParams.TypeId.HasValue || x.ProductTypeId == productParams.TypeId)
             )
         {
-            
+
         }
     }
 }
